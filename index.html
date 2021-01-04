@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INT-UIT</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -13,21 +18,24 @@
             <form action="#">
                 <h2>Create an intuit account</h2>
                 <span>one account for everything intuit, including Mint <br> <a href="#">Learn More</a></span>
-                <label for="Email address">Email address
-                </label>
-                <input type="email" id="email" name="email">
-                <label for="Phone">phone (recommended)</label>
-                <input type="text" id="phone" name="phone">
-                <label for="password">password</label>
-                <input type="password" id="password" name="password">
-                <button type="submit">Create Account</button>
+                <div class="inputs">
+                    <label for="Email address">Email address
+                    </label>
+                    <input type="email" id="email" name="email">
+                    <label for="Phone">phone (recommended)</label>
+                    <input type="text" id="phone" name="phone">
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit"><i class="far fa-lock-open-alt"></i> Create Account</button>
             </form>
-            <div class="footer">
-                <p> by clicking createaccount ,you agree to our <a href="#">terms</a> and have read and acknowledged our
+                <p> by clicking create account ,you agree to our <br><a href="#">terms</a> and have read and acknowledged our
                     <a href="#">privacy statement</a></p>
-            </div>
-        </article>
-    </section>
+                </article>
+                <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of
+                        Use</a></small>
+                    
+            </section>
 </body>
 
 </html>
